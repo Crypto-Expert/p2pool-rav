@@ -975,7 +975,7 @@ nets = dict(
         DUMB_SCRYPT_DIFF=2**16,
         DUST_THRESHOLD=0.03e8,
     ),
-    myria_scrypt=math.Object(
+    myriadcoin=math.Object(
         P2P_PREFIX='af4576ee'.decode('hex'), #pchmessagestart
         P2P_PORT=10888,
         ADDRESS_VERSION=50, #pubkey_address
